@@ -1,0 +1,634 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C11Tic_Tac_Toe14ViewController"
+provides-member:
+- ["C11Tic_Tac_Toe14ViewController", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "gameButtons"
+- "gameLabel"
+- "resetButton"
+- "markTile"
+- "viewDidLoad"
+depends-top-level:
+- "UIButton"
+- "TicTacToe"
+- !private "UIControlState"
+- !private "BooleanLiteralType"
+- !private "%"
+- "UIViewController"
+- "UILabel"
+- !private "=="
+- "ViewController"
+- !private "StringLiteralType"
+- !private "/"
+depends-member:
+- !private ["PSs9AnyObject", "Player"]
+- ["PSs9AnyObject", "TicTacToe"]
+- !private ["PSs9AnyObject", "UIControlState"]
+- !private ["PSs9AnyObject", "checkTie"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- !private ["PSs9AnyObject", "enabled"]
+- ["PSs9AnyObject", "game"]
+- ["PSs9AnyObject", "gameButtons"]
+- ["PSs9AnyObject", "gameLabel"]
+- !private ["PSs9AnyObject", "getWinner"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "markTile"]
+- !private ["PSs9AnyObject", "markTileInRow"]
+- !private ["PSs9AnyObject", "playerToPlay"]
+- ["PSs9AnyObject", "resetButton"]
+- !private ["PSs9AnyObject", "resetGame"]
+- !private ["PSs9AnyObject", "setTitle"]
+- !private ["PSs9AnyObject", "tag"]
+- !private ["PSs9AnyObject", "text"]
+- ["PSs9AnyObject", "updateLabelWithWinner"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "Normal"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- ["PSs11CVarArgType", "TicTacToe"]
+- !private ["PSs11CVarArgType", "UIControlState"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "enabled"]
+- ["PSs11CVarArgType", "game"]
+- ["PSs11CVarArgType", "gameButtons"]
+- ["PSs11CVarArgType", "gameLabel"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "markTile"]
+- ["PSs11CVarArgType", "resetButton"]
+- !private ["PSs11CVarArgType", "setTitle"]
+- !private ["PSs11CVarArgType", "tag"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", "updateLabelWithWinner"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "Player"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- ["PSs23CustomStringConvertible", "TicTacToe"]
+- !private ["PSs23CustomStringConvertible", "UIControlState"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "checkTie"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "enabled"]
+- ["PSs23CustomStringConvertible", "game"]
+- ["PSs23CustomStringConvertible", "gameButtons"]
+- ["PSs23CustomStringConvertible", "gameLabel"]
+- !private ["PSs23CustomStringConvertible", "getWinner"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "markTile"]
+- !private ["PSs23CustomStringConvertible", "markTileInRow"]
+- !private ["PSs23CustomStringConvertible", "playerToPlay"]
+- ["PSs23CustomStringConvertible", "resetButton"]
+- !private ["PSs23CustomStringConvertible", "resetGame"]
+- !private ["PSs23CustomStringConvertible", "setTitle"]
+- !private ["PSs23CustomStringConvertible", "tag"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", "updateLabelWithWinner"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "Normal"]
+- ["PSs9Equatable", "TicTacToe"]
+- !private ["PSs9Equatable", "UIControlState"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- !private ["PSs9Equatable", "enabled"]
+- ["PSs9Equatable", "game"]
+- ["PSs9Equatable", "gameButtons"]
+- ["PSs9Equatable", "gameLabel"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "markTile"]
+- !private ["PSs9Equatable", "rawValue"]
+- ["PSs9Equatable", "resetButton"]
+- !private ["PSs9Equatable", "setTitle"]
+- !private ["PSs9Equatable", "tag"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", "updateLabelWithWinner"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- ["PSs8Hashable", "TicTacToe"]
+- !private ["PSs8Hashable", "UIControlState"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "enabled"]
+- ["PSs8Hashable", "game"]
+- ["PSs8Hashable", "gameButtons"]
+- ["PSs8Hashable", "gameLabel"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "markTile"]
+- !private ["PSs8Hashable", "rawValue"]
+- ["PSs8Hashable", "resetButton"]
+- !private ["PSs8Hashable", "setTitle"]
+- !private ["PSs8Hashable", "tag"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", "updateLabelWithWinner"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "Generator"]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "_Element"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "_Element"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "_Element"]
+- ["PSo8NSCoding", "TicTacToe"]
+- !private ["PSo8NSCoding", "UIControlState"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "enabled"]
+- ["PSo8NSCoding", "game"]
+- ["PSo8NSCoding", "gameButtons"]
+- ["PSo8NSCoding", "gameLabel"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "markTile"]
+- ["PSo8NSCoding", "resetButton"]
+- !private ["PSo8NSCoding", "setTitle"]
+- !private ["PSo8NSCoding", "tag"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "updateLabelWithWinner"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- ["PSo26NSExtensionRequestHandling", "TicTacToe"]
+- !private ["PSo26NSExtensionRequestHandling", "UIControlState"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "game"]
+- ["PSo26NSExtensionRequestHandling", "gameButtons"]
+- ["PSo26NSExtensionRequestHandling", "gameLabel"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "markTile"]
+- ["PSo26NSExtensionRequestHandling", "resetButton"]
+- ["PSo26NSExtensionRequestHandling", "updateLabelWithWinner"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "TicTacToe"]
+- ["CSo8NSObject", "UIButton"]
+- !private ["CSo8NSObject", "UIControlState"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "enabled"]
+- ["CSo8NSObject", "game"]
+- ["CSo8NSObject", "gameButtons"]
+- ["CSo8NSObject", "gameLabel"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "markTile"]
+- ["CSo8NSObject", "resetButton"]
+- !private ["CSo8NSObject", "setTitle"]
+- !private ["CSo8NSObject", "tag"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "updateLabelWithWinner"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "TicTacToe"]
+- !private ["PSo16NSObjectProtocol", "UIControlState"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "enabled"]
+- ["PSo16NSObjectProtocol", "game"]
+- ["PSo16NSObjectProtocol", "gameButtons"]
+- ["PSo16NSObjectProtocol", "gameLabel"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "markTile"]
+- ["PSo16NSObjectProtocol", "resetButton"]
+- !private ["PSo16NSObjectProtocol", "setTitle"]
+- !private ["PSo16NSObjectProtocol", "tag"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "updateLabelWithWinner"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["PSs21NilLiteralConvertible", "Generator"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- !private ["PSs13OptionSetType", "Normal"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["OC11Tic_Tac_Toe9TicTacToe6Player", "deinit"]
+- !private ["OC11Tic_Tac_Toe9TicTacToe6Player", "rawValue"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
+- !private ["PSs16RawRepresentable", "Normal"]
+- !private ["PSs16RawRepresentable", "rawValue"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs14SetAlgebraType", "Normal"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["C11Tic_Tac_Toe9TicTacToe", "Player"]
+- !private ["C11Tic_Tac_Toe9TicTacToe", "checkTie"]
+- !private ["C11Tic_Tac_Toe9TicTacToe", "getWinner"]
+- ["C11Tic_Tac_Toe9TicTacToe", "init"]
+- !private ["C11Tic_Tac_Toe9TicTacToe", "markTileInRow"]
+- !private ["C11Tic_Tac_Toe9TicTacToe", "playerToPlay"]
+- !private ["C11Tic_Tac_Toe9TicTacToe", "resetGame"]
+- !private ["PSo29UIAccessibilityIdentification", "enabled"]
+- !private ["PSo29UIAccessibilityIdentification", "setTitle"]
+- !private ["PSo29UIAccessibilityIdentification", "tag"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "enabled"]
+- !private ["PSo12UIAppearance", "setTitle"]
+- !private ["PSo12UIAppearance", "tag"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "TicTacToe"]
+- !private ["PSo21UIAppearanceContainer", "UIControlState"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "enabled"]
+- ["PSo21UIAppearanceContainer", "game"]
+- ["PSo21UIAppearanceContainer", "gameButtons"]
+- ["PSo21UIAppearanceContainer", "gameLabel"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "markTile"]
+- ["PSo21UIAppearanceContainer", "resetButton"]
+- !private ["PSo21UIAppearanceContainer", "setTitle"]
+- !private ["PSo21UIAppearanceContainer", "tag"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "updateLabelWithWinner"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "enabled"]
+- !private ["CSo8UIButton", "setTitle"]
+- !private ["CSo8UIButton", "tag"]
+- ["PSo18UIContentContainer", "TicTacToe"]
+- !private ["PSo18UIContentContainer", "UIControlState"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "game"]
+- ["PSo18UIContentContainer", "gameButtons"]
+- ["PSo18UIContentContainer", "gameLabel"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "markTile"]
+- ["PSo18UIContentContainer", "resetButton"]
+- ["PSo18UIContentContainer", "updateLabelWithWinner"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "enabled"]
+- !private ["CSo9UIControl", "setTitle"]
+- !private ["CSo9UIControl", "tag"]
+- !private ["VSC14UIControlState", "Normal"]
+- !private ["PSo17UICoordinateSpace", "enabled"]
+- !private ["PSo17UICoordinateSpace", "setTitle"]
+- !private ["PSo17UICoordinateSpace", "tag"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "enabled"]
+- !private ["PSo13UIDynamicItem", "setTitle"]
+- !private ["PSo13UIDynamicItem", "tag"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "TicTacToe"]
+- !private ["PSo18UIFocusEnvironment", "UIControlState"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "enabled"]
+- ["PSo18UIFocusEnvironment", "game"]
+- ["PSo18UIFocusEnvironment", "gameButtons"]
+- ["PSo18UIFocusEnvironment", "gameLabel"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "markTile"]
+- ["PSo18UIFocusEnvironment", "resetButton"]
+- !private ["PSo18UIFocusEnvironment", "setTitle"]
+- !private ["PSo18UIFocusEnvironment", "tag"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "updateLabelWithWinner"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "TicTacToe"]
+- ["CSo11UIResponder", "UIButton"]
+- !private ["CSo11UIResponder", "UIControlState"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "enabled"]
+- ["CSo11UIResponder", "game"]
+- ["CSo11UIResponder", "gameButtons"]
+- ["CSo11UIResponder", "gameLabel"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "markTile"]
+- ["CSo11UIResponder", "resetButton"]
+- !private ["CSo11UIResponder", "setTitle"]
+- !private ["CSo11UIResponder", "tag"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "updateLabelWithWinner"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "TicTacToe"]
+- !private ["PSo16UIStateRestoring", "UIControlState"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "game"]
+- ["PSo16UIStateRestoring", "gameButtons"]
+- ["PSo16UIStateRestoring", "gameLabel"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "markTile"]
+- ["PSo16UIStateRestoring", "resetButton"]
+- ["PSo16UIStateRestoring", "updateLabelWithWinner"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "TicTacToe"]
+- !private ["PSo18UITraitEnvironment", "UIControlState"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "enabled"]
+- ["PSo18UITraitEnvironment", "game"]
+- ["PSo18UITraitEnvironment", "gameButtons"]
+- ["PSo18UITraitEnvironment", "gameLabel"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "markTile"]
+- ["PSo18UITraitEnvironment", "resetButton"]
+- !private ["PSo18UITraitEnvironment", "setTitle"]
+- !private ["PSo18UITraitEnvironment", "tag"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "updateLabelWithWinner"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "enabled"]
+- !private ["CSo6UIView", "setTitle"]
+- !private ["CSo6UIView", "tag"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "TicTacToe"]
+- ["CSo16UIViewController", "UIButton"]
+- !private ["CSo16UIViewController", "UIControlState"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "game"]
+- ["CSo16UIViewController", "gameButtons"]
+- ["CSo16UIViewController", "gameLabel"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "markTile"]
+- ["CSo16UIViewController", "resetButton"]
+- ["CSo16UIViewController", "updateLabelWithWinner"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- ["C11Tic_Tac_Toe14ViewController", "TicTacToe"]
+- ["C11Tic_Tac_Toe14ViewController", "UIButton"]
+- !private ["C11Tic_Tac_Toe14ViewController", "UIControlState"]
+- ["C11Tic_Tac_Toe14ViewController", "UILabel"]
+- ["C11Tic_Tac_Toe14ViewController", "deinit"]
+- ["C11Tic_Tac_Toe14ViewController", "didReceiveMemoryWarning"]
+- ["C11Tic_Tac_Toe14ViewController", "game"]
+- ["C11Tic_Tac_Toe14ViewController", "gameButtons"]
+- ["C11Tic_Tac_Toe14ViewController", "gameLabel"]
+- ["C11Tic_Tac_Toe14ViewController", "init"]
+- ["C11Tic_Tac_Toe14ViewController", "markTile"]
+- ["C11Tic_Tac_Toe14ViewController", "resetButton"]
+- !private ["C11Tic_Tac_Toe14ViewController", "updateLabelWithWinner"]
+- ["C11Tic_Tac_Toe14ViewController", "viewDidLoad"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "_Element"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "_Element"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "enabled"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "setTitle"]
+- !private ["PSs12_Reflectable", "tag"]
+- !private ["PSs12_Reflectable", "text"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "PSs21NilLiteralConvertible"
+- !private "PSs13OptionSetType"
+- "Sq"
+- !private "PSs16OutputStreamType"
+- !private "OC11Tic_Tac_Toe9TicTacToe6Player"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs16RawRepresentable"
+- !private "PSs12SequenceType"
+- !private "PSs14SetAlgebraType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- "C11Tic_Tac_Toe9TicTacToe"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "VSC14UIControlState"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- "C11Tic_Tac_Toe14ViewController"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "94a2c11c941e23c9e0fd17f2e327cd09"
