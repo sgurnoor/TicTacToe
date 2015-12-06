@@ -7,10 +7,18 @@
 //
 
 import UIKit
+import FBSDKCoreKit
 
-class ViewController: UIViewController {
+import FBSDKLoginKit
+
+
+
+
+class ViewController: UIViewController{
     
+    @IBOutlet weak var welcomeUser: UILabel!
     let game = TicTacToe()
+    @IBOutlet weak var welcomeImage: UIImageView!
     
     @IBOutlet weak var gameLabel: UILabel!
     
@@ -44,7 +52,6 @@ class ViewController: UIViewController {
             }
         }
         
-        //print("\(row) and \(col)")
     }
     
     private func updateLabelWithWinner (winner: TicTacToe.Player?) {
@@ -55,6 +62,7 @@ class ViewController: UIViewController {
         }
         
     }
+
     
     
     @IBAction func resetButton(sender: UIButton) {
@@ -68,6 +76,28 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        // Create request for user's Facebook data
+        let request = FBSDKGraphRequest(graphPath:"me", parameters:nil)
+        
+        // Send request to Facebook
+        request.startWithCompletionHandler {
+            
+            (connection, result, error) in
+            
+            if error != nil {
+                // Some error checking here
+            }
+            else if let userData = result as? [String:AnyObject] {
+                
+                // Access user data
+                let username = userData["name"] as? String
+                let userImage = userData["Image"] as? UIImageView
+                self.welcomeUser.text = username
+                self.welcomeImage = userImage
+                // ....
+            }
+        }
+        
         
         updateLabelWithWinner(nil)
     }
